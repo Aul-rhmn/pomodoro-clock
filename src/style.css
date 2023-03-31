@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #557571;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  width: 50px;
+}
+
+button:active {
+  transform: scale(0.95)
+}
+
+.clock-container {
+  border: 4px solid #fff;
+  border-radius: 10px;
+  padding: 5px;
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+clock-container h1 {
+  margin: 0px;
+}
+
+.clock-container span {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
+
+.flex {
+  display: flex;
+  align-center: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 20px;
+}
+
+.timer-container h1 {
+  text-align: center;
+}
+
+.timer-container h2 {
+  margin: 0px;
+}
+
+.act-wrapper span {
+  font-size: 35px;
+  margin: 10px;
+  width: 20px;
+}
+
+.flex span {
+  width: 35px;
+}
